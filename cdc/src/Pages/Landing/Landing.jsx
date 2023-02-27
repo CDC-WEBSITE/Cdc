@@ -1,7 +1,12 @@
 import React from "react";
+import DirectorMessage from "../../Components/DirectorMessage/DirectorMessage";
 
 const Landing = () => {
-  return <div>Landing</div>;
+  return (
+    <>
+      <DirectorMessage />
+    </>
+  )
 };
 
 export default Landing;
