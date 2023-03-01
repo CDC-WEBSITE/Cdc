@@ -14,8 +14,10 @@ export const directorMessage = {
 }
 
 export const CDCHeadMessage = {
-    "title": "Message from CDC Head",
+    "title": "About Head CDC",
     "message": [
+        "The Career Development Centre (CDC) is functioning under the leadership and guidance of Prof. Samir Bajpai, an alumnus of NIT Raipur and IIT Kanpur. He has given his services to the department of training & placement for over two decades. Now, he continues to mentor the training and placement activities as Head, CDC. He keenly looks forward to establish and steer a strong and symbiotic relationship with the industries and the corporate world.",
+
         "Dear Madam/Sir",
 
         "Greetings from NIT Raipur!",

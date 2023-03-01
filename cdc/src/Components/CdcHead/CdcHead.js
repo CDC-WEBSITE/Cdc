@@ -3,15 +3,15 @@ import { useState } from "react";
 import Modal from "../Modal/Modal";
 import Logo from "../../logo.svg";
 
-import { directorMessage } from "../../utils/Message";
+import { CDCHeadMessage } from "../../utils/Message";
 
 
-import "./DirectorMessage.css";
+import "../DirectorMessage/DirectorMessage.css";
 
-const DirectorMessage = () => {
+const CdcHead = () => {
     const [isModalOpen, setModalOpen] = useState(false)
 
-    var pargraphs = directorMessage.message.map((e, i) => {
+    var pargraphs = CDCHeadMessage.message.map((e, i) => {
         return (
             <p class="message" key={i}>{e}</p>
         )
@@ -28,21 +28,21 @@ const DirectorMessage = () => {
                     <img src={Logo} alt='Director NIT Raipur' />
                 </div>
                 <div className="content">
-                    <span className="section_heading">{directorMessage.title}</span>
-                    <p className="message_short">{directorMessage.message}</p>
+                    <span className="section_heading">{CDCHeadMessage.title}</span>
+                    <p className="message_short">{CDCHeadMessage.message}</p>
                     <button className="modals" onClick={openModal}>Read More</button>
                     <p className="salute">
-                        <span>{directorMessage.name}</span> <br />
+                        <span>{CDCHeadMessage.name}</span> <br />
                         <span>NIT Raipur</span>
                     </p>
                 </div>
             </div>
             {isModalOpen &&
-                <Modal isOpen={isModalOpen} setOpen={setModalOpen} title={directorMessage.title}>
+                <Modal isOpen={isModalOpen} setOpen={setModalOpen} title={CDCHeadMessage.title}>
                     {pargraphs}
                     <p className="message">
-                        <i>{directorMessage.name}</i> <br />
-                        <i>{directorMessage.designation}</i> <br />
+                        <i>{CDCHeadMessage.name}</i> <br />
+                        <i>{CDCHeadMessage.designation}</i> <br />
                         <i><b>NIT Raipur</b></i>
                     </p>
                 </Modal>}
@@ -51,4 +51,4 @@ const DirectorMessage = () => {
     )
 }
 
-export default DirectorMessage;
+export default CdcHead;

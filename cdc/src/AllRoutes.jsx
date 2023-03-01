@@ -4,11 +4,11 @@ import Landing from "./Pages/Landing/Landing";
 
 const AllRoutes = () => {
   return (
-    <div>
+    <>
       <Routes>
         <Route path='/' element={<Landing />} />
       </Routes>
-    </div>
+    </>
   );
 };
 
