@@ -13,7 +13,7 @@ const DirectorMessage = () => {
 
     var pargraphs = directorMessage.message.map((e, i) => {
         return (
-            <p class="message" key={i}>{e}</p>
+            <p className="message" key={i}>{e}</p>
         )
     })
 
