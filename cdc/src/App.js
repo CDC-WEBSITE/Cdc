@@ -3,6 +3,7 @@ import "./App.css";
 import AllRoutes from "./AllRoutes";
 import {useNavigate} from "react-router-dom";
 import {Link} from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
 function App() {
   const navigate = useNavigate();
   return (
@@ -12,6 +13,7 @@ function App() {
       <Link to='/teams'> Our teams</Link>
       <Link to='/oinsp'> Our Inspiration</Link>
       <AllRoutes />
+      <Footer />
     </div>
   );
 }

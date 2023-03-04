@@ -1,0 +1,91 @@
+/* Footer Container */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f2f2f2;
+    color: #666;
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+  
+  /* Footer Title */
+  .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer Columns */
+  .columns {
+    display: flex;
+    flex-wrap: wrap; /* Add flex-wrap property */
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  /* Footer Column */
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2rem;
+    width: 30%; /* Add specific width */
+  }
+  
+  /* Footer Link */
+  .link {
+    color: #666;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+  }
+  
+  /* Footer Link:hover */
+  .link:hover {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Footer Description */
+  .description {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    flex: 4; /* Set flex property */
+  }
+  
+  /* Footer Contact Info */
+  .contact-info {
+    flex: 1; /* Set flex property */
+  }
+  
+  /* Footer Quick Links */
+  .quick-links {
+    flex: 1; /* Set flex property */
+  }
+  
+  /* Footer Copyright */
+  .footer-container .copyright {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .footer-container a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer-container a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
