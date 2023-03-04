@@ -35,7 +35,7 @@
 
 .message_short {
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     font-size: x-large;
@@ -49,7 +49,7 @@
     border: 0;
     outline: 0;
     background-color: transparent;
-    font-size: small;
+    font-size: normal;
     font-weight: 600;
     color: #5c50f2;
     cursor: pointer;
@@ -79,5 +79,13 @@
 
     .content {
         max-width: 90%;
+    }
+
+    .section_heading {
+        font-size: normal;
+    }
+
+    .message_short {
+        font-size: larger;
     }
 }

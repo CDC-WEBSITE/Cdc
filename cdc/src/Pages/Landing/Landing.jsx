@@ -5,9 +5,8 @@ import DirectorMessage from "../../Components/DirectorMessage/DirectorMessage";
 const Landing = () => {
   return (
     <>
-      Landing
-      {/* <DirectorMessage />
-      <CdcHead /> */}
+      <DirectorMessage />
+      <CdcHead />
     </>
   );
 };
