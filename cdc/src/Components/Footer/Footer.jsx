@@ -1,4 +1,5 @@
-import SimpleReactFooter from "simple-react-footer";
+// import SimpleReactFooter from "simple-react-footer";
+import SimpleReactFooter from "./SimpleReactFooter";
 import "./Footer.css";
 
 const Footer = () => {
